@@ -3898,7 +3898,7 @@ input[type=button].btn-block {
 }
 
 .nav {
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
@@ -3908,9 +3908,13 @@ input[type=button].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  color: green!important;
+  opacity: 0.3!important;
+  transition: 0.5s;
 }
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover {
   text-decoration: none;
+  opacity: 1!important;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -3940,7 +3944,7 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: rgb(182, 14, 14);
+  background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .dropdown-menu {
