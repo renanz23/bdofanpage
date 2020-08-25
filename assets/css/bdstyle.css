@@ -83,6 +83,35 @@
   box-shadow: none;
 }
 
+.bg-default {
+  background-color: #888888 !important;
+}
+
+.bg-primary {
+  background-color: #420a00 !important;
+}
+
+.bg-info {
+  background-color: #2CA8FF !important;
+}
+
+.bg-success {
+  background-color: #18ce0f !important;
+}
+
+.bg-danger {
+  background-color: #FF3636 !important;
+}
+
+.bg-warning {
+  background-color: #FFB236 !important;
+}
+
+.bg-white {
+  background-color: #FFFFFF !important;
+}
+
+
 .dropdown-menu {
   border: 0;
   box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
